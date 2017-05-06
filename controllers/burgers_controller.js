@@ -10,7 +10,7 @@ module.exports = function (app) {
     });
 
 
-    app.put("/add", function(req, res) {
+    app.post("/add", function(req, res) {
         console.log(req.body);
         orm.insertOne(req.body.burger_name, false, req.body.date)
         res.redirect("/");
@@ -21,5 +21,7 @@ module.exports = function (app) {
         orm.updateOne(req.params.id);
         res.redirect("/");
     })
+
+    
 
 };
