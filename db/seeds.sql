@@ -8,5 +8,5 @@ INSERT INTO burgers (burger_name, devoured)
 VALUES("The Cranky Crocburger", 0);
 
 INSERT INTO burgers (burger_name, devoured)
-VALUES("The Baffling Buffalo", 0);
+VALUES("The Baffling Buffaloburger", 0);
 
